@@ -262,6 +262,59 @@ body {
     font-weight: 600;
 }
 
+/* Recent Posts Section */
+.recent-posts {
+    padding: 80px 20px;
+    background: var(--white);
+    text-align: center;
+}
+
+.recent-posts h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--primary-blue);
+}
+
+.posts-subtitle {
+    font-size: 18px;
+    color: var(--dark-gray);
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.facebook-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #1877F2 0%, #0A66C2 100%);
+    color: var(--white);
+    padding: 18px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
+}
+
+.facebook-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(24, 119, 242, 0.4);
+}
+
+.facebook-button span {
+    margin-right: 8px;
+}
+
+.facebook-feed {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.facebook-feed > div {
+    max-width: 100%;
+}
+
 /* Contact Section */
 .contact {
     padding: 80px 20px;
@@ -438,6 +491,23 @@ body {
         font-size: 32px;
     }
 
+    .recent-posts h2 {
+        font-size: 32px;
+    }
+
+    .recent-posts {
+        padding: 60px 20px;
+    }
+
+    .posts-subtitle {
+        font-size: 16px;
+    }
+
+    .facebook-button {
+        padding: 15px 40px;
+        font-size: 16px;
+    }
+
     .contact h2 {
         font-size: 28px;
     }
@@ -498,15 +568,27 @@ body {
 
     .why-choose,
     .services,
+    .recent-posts,
     .contact {
         padding: 40px 20px;
     }
 
     .why-choose h2,
     .services h2,
+    .recent-posts h2,
     .contact h2 {
         font-size: 24px;
         margin-bottom: 30px;
+    }
+
+    .posts-subtitle {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .facebook-button {
+        padding: 12px 30px;
+        font-size: 14px;
     }
 
     .benefits-grid,
