@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+npm-debug.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
+# Build
+dist/
+build/
